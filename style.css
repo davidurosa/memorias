@@ -10,9 +10,7 @@ body{
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background: linear-gradient(rgba(14, 21, 56, 0.904), rgba(14, 21, 56, 0.915)), url('fondo.jpg') no-repeat center center fixed;
-    background-size: cover;
-
+    background-image: linear-gradient(to right bottom, #d16ba5, #bc70b6, #a176c3, #807cca, #5a81cb, #4787ce, #308dd0, #0192d1, #019cdc, #01a6e7, #01b0f1, #00bafc);
 }
 
 .container{
@@ -30,7 +28,7 @@ body{
 
 h2{
     font-size: 3em;
-    color: rgb(14, 21, 56);
+    color: #da3894;
     text-transform: uppercase;
     letter-spacing: 0.1em;
 }
@@ -38,7 +36,7 @@ h2{
 .reset{
     padding: 15px 20px;
     color: #fff;
-    background-color: #182566;
+    background-color: #d16ba5;
     border: none;
     font-size: 1.5em;
     letter-spacing: 0.1em;
@@ -49,7 +47,7 @@ h2{
 
 .reset:focus{
     color: #fff;
-    background-color: #2439a7 ;
+    background-color: #da3894;
 }
 
 .game{
@@ -87,7 +85,7 @@ h2{
     content: '';
     position: absolute;
     inset: 0;
-    background-color: #2439a7;
+    background-color: #0085C3;
 /*     opacity: 0.85;
  */    transition: 0.25s;
     transform: rotateY(0deg);
@@ -119,8 +117,8 @@ h2{
   
   /* Estilo del contenido del modal */
   .modal-content {
-    background-color: #fefefe;
-    margin: 15% auto; /* Centra el modal verticalmente y lo separa del borde superior de la pantalla */
+    background-color: #da3894b7;
+    margin: 20% auto; /* Centra el modal verticalmente y lo separa del borde superior de la pantalla */
     padding: 30px;
     border: 1px solid #888;
     border-radius: 2rem;
@@ -133,7 +131,7 @@ h2{
     font-size: 3em;
     font-weight: bold;
     letter-spacing: .2em;
-    color: #182566;
+    color: #f0f1fa;
   }
   
   /* Estilo del botón de cierre */
