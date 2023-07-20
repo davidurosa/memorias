@@ -21,21 +21,22 @@ body{
     flex-direction: column;
     gap: 30px;
     padding: 40px 60px;
-    background-color:#182566 ;
+    background-color:rgba(198, 203, 228, 0.722) ;
+    backdrop-filter: blur(15px);
 }
 
 
 h2{
     font-size: 3em;
-    color: #fff;
+    color: #0E1538;
     text-transform: uppercase;
     letter-spacing: 0.1em;
 }
 
 .reset{
     padding: 15px 20px;
-    color: #182566;
-    background-color: #fff;
+    color: #fff;
+    background-color: #182566;
     border: none;
     font-size: 1.5em;
     letter-spacing: 0.1em;
